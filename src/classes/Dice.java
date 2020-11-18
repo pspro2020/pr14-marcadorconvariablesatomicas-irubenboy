@@ -29,7 +29,7 @@ public class Dice{
     }
 
     public void throwDice(int number){
-        result[number-1].addAndGet(number);
+        result[number-1].addAndGet(1);
 
         System.out.println("Se ha lanzado el número " + number);
 
